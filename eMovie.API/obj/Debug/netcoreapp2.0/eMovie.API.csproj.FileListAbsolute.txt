@@ -1,0 +1,11 @@
+C:\Users\jefte\source\repos\eMovie\eMovie.API\bin\Debug\netcoreapp2.0\eMovie.API.deps.json
+C:\Users\jefte\source\repos\eMovie\eMovie.API\bin\Debug\netcoreapp2.0\eMovie.API.runtimeconfig.json
+C:\Users\jefte\source\repos\eMovie\eMovie.API\bin\Debug\netcoreapp2.0\eMovie.API.runtimeconfig.dev.json
+C:\Users\jefte\source\repos\eMovie\eMovie.API\bin\Debug\netcoreapp2.0\eMovie.API.dll
+C:\Users\jefte\source\repos\eMovie\eMovie.API\bin\Debug\netcoreapp2.0\eMovie.API.pdb
+C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API.csprojResolveAssemblyReference.cache
+C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API.csproj.CoreCompileInputs.cache
+C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API.AssemblyInfoInputs.cache
+C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API.AssemblyInfo.cs
+C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API.dll
+C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API.pdb

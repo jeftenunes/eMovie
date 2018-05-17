@@ -1,0 +1,11 @@
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\bin\Debug\netcoreapp2.0\eMovie.Services.Identity.deps.json
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\bin\Debug\netcoreapp2.0\eMovie.Services.Identity.runtimeconfig.json
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\bin\Debug\netcoreapp2.0\eMovie.Services.Identity.runtimeconfig.dev.json
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\bin\Debug\netcoreapp2.0\eMovie.Services.Identity.dll
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\bin\Debug\netcoreapp2.0\eMovie.Services.Identity.pdb
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\obj\Debug\netcoreapp2.0\eMovie.Services.Identity.csprojResolveAssemblyReference.cache
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\obj\Debug\netcoreapp2.0\eMovie.Services.Identity.csproj.CoreCompileInputs.cache
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\obj\Debug\netcoreapp2.0\eMovie.Services.Identity.AssemblyInfoInputs.cache
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\obj\Debug\netcoreapp2.0\eMovie.Services.Identity.AssemblyInfo.cs
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\obj\Debug\netcoreapp2.0\eMovie.Services.Identity.dll
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Identity\obj\Debug\netcoreapp2.0\eMovie.Services.Identity.pdb

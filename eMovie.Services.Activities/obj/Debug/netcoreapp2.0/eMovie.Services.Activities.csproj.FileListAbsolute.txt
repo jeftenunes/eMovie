@@ -1,0 +1,11 @@
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\bin\Debug\netcoreapp2.0\eMovie.Services.Activities.deps.json
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\bin\Debug\netcoreapp2.0\eMovie.Services.Activities.runtimeconfig.json
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\bin\Debug\netcoreapp2.0\eMovie.Services.Activities.runtimeconfig.dev.json
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\bin\Debug\netcoreapp2.0\eMovie.Services.Activities.dll
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\bin\Debug\netcoreapp2.0\eMovie.Services.Activities.pdb
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\obj\Debug\netcoreapp2.0\eMovie.Services.Activities.csprojResolveAssemblyReference.cache
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\obj\Debug\netcoreapp2.0\eMovie.Services.Activities.csproj.CoreCompileInputs.cache
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\obj\Debug\netcoreapp2.0\eMovie.Services.Activities.AssemblyInfoInputs.cache
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\obj\Debug\netcoreapp2.0\eMovie.Services.Activities.AssemblyInfo.cs
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\obj\Debug\netcoreapp2.0\eMovie.Services.Activities.dll
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Activities\obj\Debug\netcoreapp2.0\eMovie.Services.Activities.pdb
