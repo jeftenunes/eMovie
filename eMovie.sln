@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eMovie.API", "eMovie.API\eMovie.API.csproj", "{86DEEC09-DD84-4982-A5C7-36939F6B2998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eMovie.API", "eMovie.API\eMovie.API.csproj", "{86DEEC09-DD84-4982-A5C7-36939F6B2998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eMovie.Services.Identity", "eMovie.Services.Identity\eMovie.Services.Identity.csproj", "{3692D16D-1999-485F-94CF-3F22430670A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eMovie.Services.Identity", "eMovie.Services.Identity\eMovie.Services.Identity.csproj", "{3692D16D-1999-485F-94CF-3F22430670A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eMovie.Services.Activities", "eMovie.Services.Activities\eMovie.Services.Activities.csproj", "{3DC3B39B-2C9B-46CB-B9E9-7C78CD8558C2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{275C4609-8BF3-4214-AFED-DF1BBA824E2C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eMovies.Commons", "eMovies.Commons\eMovies.Commons.csproj", "{6D53AFF5-F904-41FC-8522-7081D20A1235}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +28,10 @@ Global
 		{3692D16D-1999-485F-94CF-3F22430670A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3692D16D-1999-485F-94CF-3F22430670A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3692D16D-1999-485F-94CF-3F22430670A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DC3B39B-2C9B-46CB-B9E9-7C78CD8558C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DC3B39B-2C9B-46CB-B9E9-7C78CD8558C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DC3B39B-2C9B-46CB-B9E9-7C78CD8558C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DC3B39B-2C9B-46CB-B9E9-7C78CD8558C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D53AFF5-F904-41FC-8522-7081D20A1235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D53AFF5-F904-41FC-8522-7081D20A1235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D53AFF5-F904-41FC-8522-7081D20A1235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D53AFF5-F904-41FC-8522-7081D20A1235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
