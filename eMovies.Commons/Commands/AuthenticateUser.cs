@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace eMovies.Commons.Commands
+namespace eMovie.Commons.Commands
 {
     public class AuthenticateUser : ICommand
     {

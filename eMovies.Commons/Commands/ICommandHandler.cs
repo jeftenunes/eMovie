@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Text;
-using eMovies.Commons.Commands;
 using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace eMovies.Commons.CommandHandlers
+namespace eMovie.Commons.Commands
 {
     public interface ICommandHandler<in T> where T : ICommand
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace eMovie.Commons.Commands
+namespace eMovie.Commons.Events
 {
-    public interface ICommand
+    public interface IEvent
     {
     }
 }

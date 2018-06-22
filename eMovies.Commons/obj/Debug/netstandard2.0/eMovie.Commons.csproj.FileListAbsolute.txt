@@ -1,0 +1,9 @@
+C:\Users\jefte\source\repos\eMovie\eMovies.Commons\bin\Debug\netstandard2.0\eMovie.Commons.deps.json
+C:\Users\jefte\source\repos\eMovie\eMovies.Commons\bin\Debug\netstandard2.0\eMovie.Commons.dll
+C:\Users\jefte\source\repos\eMovie\eMovies.Commons\bin\Debug\netstandard2.0\eMovie.Commons.pdb
+C:\Users\jefte\source\repos\eMovie\eMovies.Commons\obj\Debug\netstandard2.0\eMovie.Commons.csprojResolveAssemblyReference.cache
+C:\Users\jefte\source\repos\eMovie\eMovies.Commons\obj\Debug\netstandard2.0\eMovie.Commons.csproj.CoreCompileInputs.cache
+C:\Users\jefte\source\repos\eMovie\eMovies.Commons\obj\Debug\netstandard2.0\eMovie.Commons.AssemblyInfoInputs.cache
+C:\Users\jefte\source\repos\eMovie\eMovies.Commons\obj\Debug\netstandard2.0\eMovie.Commons.AssemblyInfo.cs
+C:\Users\jefte\source\repos\eMovie\eMovies.Commons\obj\Debug\netstandard2.0\eMovie.Commons.dll
+C:\Users\jefte\source\repos\eMovie\eMovies.Commons\obj\Debug\netstandard2.0\eMovie.Commons.pdb
