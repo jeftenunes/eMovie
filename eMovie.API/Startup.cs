@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using eMovie.API.Handlers;
+using eMovie.Commons.Commands;
+using eMovie.Commons.EventHandlers;
+using eMovie.Commons.Events;
+using eMovie.Commons.RabbitMq;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +29,9 @@ namespace eMovie.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddRabbitMq(Configuration);                                   
+            services.AddScoped<IEventHandler<UserCreated>, UserCreatedHandler>();
+            services.AddScoped<IEventHandler<MovieCreated>, MovieCreatedHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
