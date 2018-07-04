@@ -9,3 +9,5 @@ C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API
 C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API.AssemblyInfo.cs
 C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API.dll
 C:\Users\jefte\source\repos\eMovie\eMovie.API\obj\Debug\netcoreapp2.0\eMovie.API.pdb
+C:\Users\jefte\source\repos\eMovie\eMovie.API\bin\Debug\netcoreapp2.0\eMovie.Commons.dll
+C:\Users\jefte\source\repos\eMovie\eMovie.API\bin\Debug\netcoreapp2.0\eMovie.Commons.pdb

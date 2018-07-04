@@ -6,6 +6,7 @@ using eMovie.Commons.Services.Interfaces;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using RawRabbit;
 using System;
 using System.Collections.Generic;
@@ -52,7 +53,7 @@ namespace eMovie.Commons.Services
                 this.webHost = webHost;
             }
 
-            public BusBuilder UseRabbitMQ()
+            public BusBuilder UseRabbitMq()
             {
                 busClient = webHost.Services.GetService(typeof(IBusClient)) as IBusClient;
                 return new BusBuilder(webHost, busClient);
@@ -76,18 +77,27 @@ namespace eMovie.Commons.Services
 
             public BusBuilder SubscribeToCommand<TCommand>() where TCommand : ICommand
             {
-                var handler = (ICommandHandler<TCommand>)webHost.Services
-                    .GetService(typeof(TCommand));
-                busClient.WithCommandHandlerAsync(handler);
+                using (var serviceScope = webHost.Services.GetRequiredService<IServiceScopeFactory>().CreateScope())
+                {
+
+                    var handler = (ICommandHandler<TCommand>)serviceScope.ServiceProvider
+                        .GetService(typeof(ICommandHandler<TCommand>));
+
+                    busClient.WithCommandHandlerAsync(handler);
+                }
 
                 return this;
             }
 
             public BusBuilder SubscribeToEvent<TEvent>() where TEvent : IEvent
             {
-                var handler = (IEventHandler<TEvent>)webHost.Services
-                    .GetService(typeof(TEvent));
-                busClient.WithEventHandlerAsync(handler);
+                using (var serviceScope = webHost.Services.GetRequiredService<IServiceScopeFactory>().CreateScope())
+                {
+                    var handler = (IEventHandler<TEvent>)serviceScope.ServiceProvider
+                        .GetService(typeof(IEventHandler<TEvent>));
+
+                    busClient.WithEventHandlerAsync(handler);
+                }
 
                 return this;
             }

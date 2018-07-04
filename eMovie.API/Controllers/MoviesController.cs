@@ -10,20 +10,27 @@ using RawRabbit;
 namespace eMovie.API.Controllers
 {
     [Route("api/[controller]")]
-    public class UsersController : Controller
+    public class MoviesController : Controller
     {
         private readonly IBusClient busClient;
 
-        public UsersController(IBusClient busClient)
+        public MoviesController(IBusClient busClient)
         {
             this.busClient = busClient;
         }
 
         [Route("")]
-        public async Task<IActionResult> Post([FromBody] CreateUser createUser)
+        public async Task<IActionResult> Post([FromBody] CreateMovie createMovie)
         {
-            await busClient.PublishAsync(createUser);
-            return Accepted($"api/users/{createUser.Id}");
+            try
+            {
+                await busClient.PublishAsync(createMovie);
+                return Accepted($"api/movies/{createMovie.Id}");
+            }
+            catch(Exception ex)
+            {
+                throw;
+            }
         }
     }
 }
