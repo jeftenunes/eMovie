@@ -11,3 +11,5 @@ C:\Users\jefte\source\repos\eMovie\eMovie.Services.Catalog\obj\Debug\netcoreapp2
 C:\Users\jefte\source\repos\eMovie\eMovie.Services.Catalog\obj\Debug\netcoreapp2.0\eMovie.Services.Catalog.pdb
 C:\Users\jefte\source\repos\eMovie\eMovie.Services.Catalog\bin\Debug\netcoreapp2.0\eMovie.Commons.dll
 C:\Users\jefte\source\repos\eMovie\eMovie.Services.Catalog\bin\Debug\netcoreapp2.0\eMovie.Commons.pdb
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Catalog\bin\Debug\netcoreapp2.0\eMovie.Infrastructure.dll
+C:\Users\jefte\source\repos\eMovie\eMovie.Services.Catalog\bin\Debug\netcoreapp2.0\eMovie.Infrastructure.pdb
