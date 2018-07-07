@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -20,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\eMovie.Domain\eMovie.Infrastructure.csproj" />
     <ProjectReference Include="..\eMovies.Commons\eMovie.Commons.csproj" />
   </ItemGroup>
 

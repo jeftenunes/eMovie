@@ -4,9 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using eMovie.Commons.Commands;
 using eMovie.Commons.RabbitMq;
+using eMovie.Infrastructure;
 using eMovie.Services.Catalog.Handlers;
+using eMovie.Services.Catalog.Services;
+using eMovie.Services.Catalog.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -29,11 +33,18 @@ namespace eMovie.Services.Catalog
             services.AddMvc();
             services.AddRabbitMq(Configuration);
             services.AddScoped<ICommandHandler<CreateMovie>, CreateMovieHandler>();
+            services.AddScoped<IMovieService, MovieService>();
+
+            services.AddDbContext<Context>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("eMovieContext")));
+
+            services.AddScoped<Context>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, Context context)
         {
+            context.Database.EnsureCreated();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
